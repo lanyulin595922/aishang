@@ -1,0 +1,77 @@
+.zt-color{
+    color: #F79F00 !important;
+}
+.clearfix:after {
+	content: "\200B";
+	display: block;
+	height: 0;
+    clear: both; }
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.hiddenhit{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.hiddenhix{
+    word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.orderlist-active{
+    color: #000 !important;
+    font-size: r(32px) !important;
+    &::after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: r(9px);
+        width:r(44px);
+        height: r(9px);
+        background-color: #F79F00;
+        border-radius: r(4.5px);
+    }
+}
+.allcomment-active{
+    color: #000 !important;
+    &::after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: r(0px);
+        width:r(44px);
+        height: r(9px);
+        background-color: #F79F00;
+        border-radius: r(4.5px);
+    }
+}
+.footprint-active{
+    color: #000 !important;
+    &::after{
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: r(9px);
+        width:r(44px);
+        height: r(9px);
+        background-color: #F79F00;
+        border-radius: r(4.5px);
+    }
+}
+.appear-chat{
+    bottom: r(108px) !important;
+}
+img{
+    display: block;
+}
